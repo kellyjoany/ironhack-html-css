@@ -1,0 +1,169 @@
+nav{
+    font-family: 'arial';
+    background-color: #C12127;
+    color: red;
+    height: 30px;
+    padding-top: 15px;
+}
+nav a{
+    color: #FFF;
+    text-decoration: none;
+}
+.nav-top-left{
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0 0 0 15px;
+}
+.nav-heart{
+    margin: 0 15px;
+  }
+.nav-links-right{
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+.nav-links-right li {
+    display: inline-block;
+    margin: 0 10px;
+}
+header{
+    font-family: 'arial';
+    background-color: #21597b;
+    color: #FFF;
+    height: 400px;
+    padding-top: 15px;
+    align-content: justify;
+}
+header a{
+    color: #FFF;
+    text-decoration: none;
+}
+#search-bar{
+    width: 100%;
+    display: inline-block;
+}
+.log-left{
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0 0 0 15px;
+}
+.log-middle input[type=text]{
+    display: inline-block;
+    width:80%;
+    margin: 0 10px 0 10px;
+    height: 30px;
+    background-color: rgb(31, 82, 111);
+    padding: 0 0 0 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.log-right{
+    display: inline-block;
+    float: right; 
+} 
+.amazing-things img{
+    width: 100%;
+    position: absolute; 
+}
+.build{
+    z-index: 1;
+    position: absolute; 
+    display: block;
+    left: 20%;
+    right: 25%;
+    width: 500px;
+    height: 300px;
+}
+.build input[type=button]{
+    background-color: rgb(240, 146, 51);
+    color: #FFF;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.collaborate{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #273547;
+    color: #FFF;
+    font-family: 'arial';
+}
+.collaborate-people{
+    margin-top: 100px;
+    display: inline-block;
+    width: 500px;
+}
+.collaborate-text{
+    margin-top: 100px;
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    margin-left: 20px;
+}
+.collaborate-text li{
+    padding: 10px 0;
+}
+.collaborate-text a{
+    color: #FFF;
+    text-decoration: none;
+}
+.collaborate-text input[type=button]{
+    background-color: rgb(203, 56, 55);
+    color: #FFF;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.npm_boxes{
+    background-image: url('../images/forklift.svg');
+    background-size: contain;
+    height: 600px;
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'arial';
+}
+.npm_boxes_text{
+    z-index: 1;
+    position: absolute; 
+    display: block;
+    left: 20%;
+    right: 25%;
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+}
+.npm_boxes input[type=button]{
+    background-color: rgb(49, 68, 88);
+    color: #FFF;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.messages{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'arial';
+}
+.box{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+.box_section{
+    width:33%;
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.box_section a{
+    color: red;
+    text-decoration: none;
+}
